@@ -105,14 +105,6 @@
             "id": "123859299",
             "author": "DuckMcFuddle",
             "stars": 0
-        },
-        {
-            "name": "Coin temple",
-            "difficulty": "hard",
-            "is_demon": false,
-            "id": "98972163",
-            "author": "Santylolcat",
-            "stars": 5
         }
     ],
     "completed_levels": [
@@ -259,6 +251,14 @@
             "id": "118509879",
             "author": "YoReid",
             "stars": 10
+        },
+        {
+            "name": "Coin temple",
+            "difficulty": "hard",
+            "is_demon": false,
+            "id": "98972163",
+            "author": "Santylolcat",
+            "stars": 5
         }
     ],
     "demon_counter": {
