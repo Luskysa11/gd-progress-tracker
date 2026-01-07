@@ -46,11 +46,26 @@ OFFICIAL_LEVELS = {
     "Back on Track": "easy"
 }
 
+# --- FUNCIONES GIT ---
+def git_pull():
+    try:
+        subprocess.run(["git", "pull"], check=True, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+    except:
+        print(Fore.YELLOW + "⚠ No se pudo hacer git pull (quizá no hay repo configurado).")
+
+def git_push():
+    try:
+        subprocess.run(["git", "add", FILE_NAME], check=True, stdout=subprocess.DEVNULL)
+        subprocess.run(["git", "commit", "-m", "Auto-update progress"], check=True, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+        subprocess.run(["git", "push"], check=True, stdout=subprocess.DEVNULL)
+    except:
+        pass  # No hay cambios que subir o error
+
 # --- FUNCIONES BASE ---
 def load_data():
     if os.path.exists(FILE_NAME):
         try:
-            with open(FILE_NAME, "r") as f:
+            with open(FILE_NAME, "r", encoding="utf-8") as f:
                 return json.load(f)
         except json.JSONDecodeError:
             print(Fore.RED + "⚠ Archivo dañado, se regenerará uno nuevo.")
@@ -64,8 +79,9 @@ def load_data():
     return data
 
 def save_data(data):
-    with open(FILE_NAME, "w") as f:
+    with open(FILE_NAME, "w", encoding="utf-8") as f:
         json.dump(data, f, indent=4)
+    git_push()
 
 # --- UTILIDADES ---
 def green(t): return Fore.GREEN + t + Style.RESET_ALL
@@ -90,10 +106,11 @@ def show_menu():
     print("7. Ver demon counter")
     print("8. Ver estadísticas de progreso")
     print("9. Buscar nivel por ID (GD Browser)")
-    print("10. Sincronizar niveles personalizados")
+    print("10. Sincronizar niveles personalizados (GD Browser)")
+    print("11. Sincronizar JSON con GitHub ahora")
     print("0. Salir")
 
-# --- DUPLICADOS ---
+# --- FUNCIONES AUXILIARES ---
 def seleccionar_nivel(lista):
     if len(lista) == 1:
         return lista[0]
@@ -155,7 +172,6 @@ def add_custom_level(data):
     print(blue("\n--- Añadir nivel personalizado ---"))
     level_id = input("Introduce el ID del nivel (deja vacío para manual): ").strip()
     if level_id:
-        # Sincroniza automáticamente desde GD Browser
         try:
             resp = requests.get(API_URL + level_id)
             info = resp.json()
@@ -278,8 +294,15 @@ def sincronizar_niveles(data):
     save_data(data)
     print(blue("\nSincronización completada ✅"))
 
+# --- NUEVA FUNCIÓN: sincronizar con GitHub MANUAL ---
+def sincronizar_git(data):
+    print(blue("\n--- Sincronizando JSON con GitHub ---"))
+    git_push()
+    print(green("✔ Sincronización completa."))
+
 # --- MAIN ---
 def main():
+    git_pull()
     data = load_data()
     while True:
         show_menu()
@@ -296,6 +319,7 @@ def main():
         elif op=="8": show_statistics(data)
         elif op=="9": buscar_nivel_por_id(data)
         elif op=="10": sincronizar_niveles(data)
+        elif op=="11": sincronizar_git(data)
         elif op=="0":
             print(blue("👋 Saliendo..."))
             break
