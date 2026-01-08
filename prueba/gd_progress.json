@@ -1,0 +1,101 @@
+{
+    "official_levels": {
+        "Base after Base": {
+            "difficulty": "hard",
+            "completed": false
+        },
+        "Blast Processing": {
+            "difficulty": "harder",
+            "completed": false
+        },
+        "Cant Let Go": {
+            "difficulty": "hard",
+            "completed": false
+        },
+        "Clutterfunk": {
+            "difficulty": "insane",
+            "completed": false
+        },
+        "Clubstep": {
+            "difficulty": "easy demon",
+            "completed": false
+        },
+        "Cycles": {
+            "difficulty": "harder",
+            "completed": false
+        },
+        "Dash": {
+            "difficulty": "insane",
+            "completed": false
+        },
+        "Deadlocked": {
+            "difficulty": "easy demon",
+            "completed": false
+        },
+        "Dry Out": {
+            "difficulty": "normal",
+            "completed": false
+        },
+        "Electrodynamix": {
+            "difficulty": "insane",
+            "completed": false
+        },
+        "Electroman Adventures": {
+            "difficulty": "insane",
+            "completed": false
+        },
+        "Fingerdash": {
+            "difficulty": "insane",
+            "completed": false
+        },
+        "Geometrical Dominator": {
+            "difficulty": "harder",
+            "completed": false
+        },
+        "Hexagon Force": {
+            "difficulty": "insane",
+            "completed": false
+        },
+        "Jumper": {
+            "difficulty": "harder",
+            "completed": false
+        },
+        "Polargeist": {
+            "difficulty": "normal",
+            "completed": false
+        },
+        "Stereo Madness": {
+            "difficulty": "easy",
+            "completed": false
+        },
+        "Theory of Everything": {
+            "difficulty": "insane",
+            "completed": false
+        },
+        "Theory of Everything 2": {
+            "difficulty": "easy demon",
+            "completed": false
+        },
+        "Time Machine": {
+            "difficulty": "harder",
+            "completed": false
+        },
+        "xStep": {
+            "difficulty": "insane",
+            "completed": false
+        },
+        "Back on Track": {
+            "difficulty": "easy",
+            "completed": false
+        }
+    },
+    "custom_levels": [],
+    "completed_levels": [],
+    "demon_counter": {
+        "easy": 0,
+        "medium": 0,
+        "hard": 0,
+        "insane": 0,
+        "extreme": 0
+    }
+}
