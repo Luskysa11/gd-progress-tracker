@@ -105,6 +105,22 @@
             "id": "123859299",
             "author": "DuckMcFuddle",
             "stars": 0
+        },
+        {
+            "name": "MaffStep",
+            "difficulty": "medium demon",
+            "is_demon": true,
+            "id": "109185557",
+            "author": "MaFFaKa",
+            "stars": 10
+        },
+        {
+            "name": "Living Open",
+            "difficulty": "medium demon",
+            "is_demon": true,
+            "id": "96716452",
+            "author": "MaFFaKa",
+            "stars": 10
         }
     ],
     "completed_levels": [
@@ -259,6 +275,14 @@
             "id": "98972163",
             "author": "Santylolcat",
             "stars": 5
+        },
+        {
+            "name": "Go Oh Oh",
+            "difficulty": "harder",
+            "is_demon": false,
+            "id": "85429077",
+            "author": "maaaaaaaaaaark2",
+            "stars": 0
         }
     ],
     "demon_counter": {
