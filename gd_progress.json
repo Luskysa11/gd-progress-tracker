@@ -121,14 +121,6 @@
             "id": "96716452",
             "author": "MaFFaKa",
             "stars": 10
-        },
-        {
-            "name": "Sunshine",
-            "difficulty": "harder",
-            "is_demon": false,
-            "id": "56199846",
-            "author": "Unzor",
-            "stars": 7
         }
     ],
     "completed_levels": [
@@ -291,6 +283,14 @@
             "id": "85429077",
             "author": "maaaaaaaaaaark2",
             "stars": 0
+        },
+        {
+            "name": "Sunshine",
+            "difficulty": "harder",
+            "is_demon": false,
+            "id": "56199846",
+            "author": "Unzor",
+            "stars": 7
         }
     ],
     "demon_counter": {
