@@ -2,98 +2,268 @@
     "official_levels": {
         "Base after Base": {
             "difficulty": "hard",
-            "completed": false
+            "completed": true
         },
         "Blast Processing": {
             "difficulty": "harder",
-            "completed": false
+            "completed": true
         },
         "Cant Let Go": {
             "difficulty": "hard",
-            "completed": false
+            "completed": true
         },
         "Clutterfunk": {
             "difficulty": "insane",
-            "completed": false
+            "completed": true
         },
         "Clubstep": {
             "difficulty": "easy demon",
-            "completed": false
+            "completed": true
         },
         "Cycles": {
             "difficulty": "harder",
-            "completed": false
+            "completed": true
         },
         "Dash": {
             "difficulty": "insane",
-            "completed": false
+            "completed": true
         },
         "Deadlocked": {
             "difficulty": "easy demon",
-            "completed": false
+            "completed": true
         },
         "Dry Out": {
             "difficulty": "normal",
-            "completed": false
+            "completed": true
         },
         "Electrodynamix": {
             "difficulty": "insane",
-            "completed": false
+            "completed": true
         },
         "Electroman Adventures": {
             "difficulty": "insane",
-            "completed": false
+            "completed": true
         },
         "Fingerdash": {
             "difficulty": "insane",
-            "completed": false
+            "completed": true
         },
         "Geometrical Dominator": {
             "difficulty": "harder",
-            "completed": false
+            "completed": true
         },
         "Hexagon Force": {
             "difficulty": "insane",
-            "completed": false
+            "completed": true
         },
         "Jumper": {
             "difficulty": "harder",
-            "completed": false
+            "completed": true
         },
         "Polargeist": {
             "difficulty": "normal",
-            "completed": false
+            "completed": true
         },
         "Stereo Madness": {
             "difficulty": "easy",
-            "completed": false
+            "completed": true
         },
         "Theory of Everything": {
             "difficulty": "insane",
-            "completed": false
+            "completed": true
         },
         "Theory of Everything 2": {
             "difficulty": "easy demon",
-            "completed": false
+            "completed": true
         },
         "Time Machine": {
             "difficulty": "harder",
-            "completed": false
+            "completed": true
         },
         "xStep": {
             "difficulty": "insane",
-            "completed": false
+            "completed": true
         },
         "Back on Track": {
             "difficulty": "easy",
-            "completed": false
+            "completed": true
         }
     },
-    "custom_levels": [],
-    "completed_levels": [],
+    "custom_levels": [
+        {
+            "name": "Forsaken Neon",
+            "difficulty": "hard demon",
+            "is_demon": true,
+            "id": "6300721",
+            "author": "Zobros",
+            "stars": 10
+        },
+        {
+            "name": "Random Ending Mix",
+            "difficulty": "insane",
+            "is_demon": false,
+            "id": "123859299",
+            "author": "DuckMcFuddle",
+            "stars": 0
+        }
+    ],
+    "completed_levels": [
+        {
+            "name": "iS",
+            "difficulty": "easy demon",
+            "is_demon": true,
+            "id": "65765662",
+            "author": "Grenate",
+            "stars": 10
+        },
+        {
+            "name": "Speed Racer",
+            "difficulty": "easy demon",
+            "is_demon": true,
+            "id": "3543219",
+            "author": "ZenthicAlpha",
+            "stars": 10
+        },
+        {
+            "name": "iSpyWithMyLittleEye",
+            "difficulty": "easy demon",
+            "is_demon": true,
+            "id": "89886591",
+            "author": "Voxicat",
+            "stars": 10
+        },
+        {
+            "name": "Annyeongz",
+            "difficulty": "easy demon",
+            "is_demon": true,
+            "id": "125383562",
+            "author": "issanagay",
+            "stars": 10
+        },
+        {
+            "name": "Shiver",
+            "difficulty": "easy demon",
+            "is_demon": true,
+            "id": "56210242",
+            "author": "SpKale",
+            "stars": 10
+        },
+        {
+            "name": "Lockdown",
+            "difficulty": "easy demon",
+            "is_demon": true,
+            "id": "119312742",
+            "author": "KerbexGMD",
+            "stars": 10
+        },
+        {
+            "name": "The Nightmare",
+            "difficulty": "easy demon",
+            "is_demon": true,
+            "id": "13519",
+            "author": "Jax",
+            "stars": 10
+        },
+        {
+            "name": "B",
+            "difficulty": "medium demon",
+            "is_demon": true,
+            "id": "34085027",
+            "author": "motleyorc",
+            "stars": 10
+        },
+        {
+            "name": "red alert",
+            "difficulty": "easy demon",
+            "is_demon": true,
+            "id": "128665322",
+            "author": "ratliffigd",
+            "stars": 10
+        },
+        {
+            "name": "Explorers",
+            "difficulty": "easy",
+            "is_demon": false,
+            "id": "116776010",
+            "author": "RobTop",
+            "stars": 2
+        },
+        {
+            "name": "STARPUNK",
+            "difficulty": "easy demon",
+            "is_demon": true,
+            "id": "63087691",
+            "author": "Ferdefunky",
+            "stars": 10
+        },
+        {
+            "name": "invisible clubstep ",
+            "difficulty": "easy demon",
+            "is_demon": true,
+            "id": "1347537",
+            "author": "J4cKy",
+            "stars": 10
+        },
+        {
+            "name": "Ultra Paracosm",
+            "difficulty": "easy demon",
+            "is_demon": true,
+            "id": "11588490",
+            "author": "iIiRulasiIi",
+            "stars": 10
+        },
+        {
+            "name": "Change of Scene",
+            "difficulty": "easy demon",
+            "is_demon": true,
+            "id": "90475473",
+            "author": "bli",
+            "stars": 10
+        },
+        {
+            "name": "Against the God",
+            "difficulty": "medium demon",
+            "is_demon": true,
+            "id": "49994214",
+            "author": "1374",
+            "stars": 10
+        },
+        {
+            "name": "Platinum Adventure",
+            "difficulty": "easy demon",
+            "is_demon": true,
+            "id": "5904109",
+            "author": "Jerry4",
+            "stars": 10
+        },
+        {
+            "name": "THE LIGHTNING ROAD",
+            "difficulty": "easy demon",
+            "is_demon": true,
+            "id": "55520",
+            "author": "timeless real",
+            "stars": 10
+        },
+        {
+            "name": "Skeletal Shenanigans",
+            "difficulty": "medium demon",
+            "is_demon": true,
+            "id": "118509879",
+            "author": "YoReid",
+            "stars": 10
+        },
+        {
+            "name": "Coin temple",
+            "difficulty": "hard",
+            "is_demon": false,
+            "id": "98972163",
+            "author": "Santylolcat",
+            "stars": 5
+        }
+    ],
     "demon_counter": {
-        "easy": 0,
-        "medium": 0,
+        "easy": 17,
+        "medium": 3,
         "hard": 0,
         "insane": 0,
         "extreme": 0

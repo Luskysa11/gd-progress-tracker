@@ -22,28 +22,28 @@ FILE_NAME = "gd_progress.json"
 API_URL = "https://gdbrowser.com/api/level/"
 
 OFFICIAL_LEVELS = {
-    "Stereo Madness": "easy",
-    "Back on Track": "easy",
+    "Base after Base": "hard",
+    "Blast Processing": "harder",
     "Cant Let Go": "hard",
     "Clutterfunk": "insane",
     "Clubstep": "easy demon",
     "Cycles": "harder",
-    "Blast Processing": "harder",
+    "Dash": "insane",
     "Deadlocked": "easy demon",
     "Dry Out": "normal",
     "Electrodynamix": "insane",
     "Electroman Adventures": "insane",
-    "xStep": "insane",
+    "Fingerdash": "insane",
     "Geometrical Dominator": "harder",
     "Hexagon Force": "insane",
     "Jumper": "harder",
     "Polargeist": "normal",
-    "Base after Base": "hard",
+    "Stereo Madness": "easy",
     "Theory of Everything": "insane",
     "Theory of Everything 2": "easy demon",
     "Time Machine": "harder",
-    "Fingerdash": "insane",
-    "Dash": "insane"
+    "xStep": "insane",
+    "Back on Track": "easy"
 }
 
 # --- FUNCIONES GIT ---
